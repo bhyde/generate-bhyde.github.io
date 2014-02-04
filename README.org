@@ -1,0 +1,15 @@
+This repository is responsible for building bhyde.github.io via
+nanoc.  So it's a nanoc site directory as intialally created by
+```nanoc create-site ...```.
+
+It probably has little if any interest to you. But it might be
+interesting as an example of how to build user pages via
+nanoc.
+
+The nanoc.yaml file arranges to generate the site into
+../bhyde.github.io which presumably was cloned from github
+and when you want to publish your changes you push them
+from that directory.
+
+Note that nanoc.yaml has two data sources, so content/assets can
+be moved into the site unmodified.

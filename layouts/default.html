@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @item[:title] %></title>
+    <link rel="stylesheet" href="/assets/stylesheet.css">
+  </head>
+  <body>
+    <div id="main">
+      <%= yield %>
+    </div>
+    <div id="sidebar">
+      <img src="/assets/push.png">
+      <ul>
+        <li><a href="http://github.com/bhyde">My Github</a></li>
+        <li><a href="http://enthusiasm.cozy.org/">My Blog</a></li>
+        <li><a href="/files/">Some Files</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
